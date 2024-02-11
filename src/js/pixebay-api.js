@@ -38,7 +38,7 @@ export const pixebayApi = (word, iziToast) => {
                 backgroundColor: 'red',
                 messageColor: 'white',
                 theme: 'dark',
-                iconUrl: '../img/error.svg'
+                iconUrl: './img/error.svg'
             });
         } else {
             renderFunc(data);
@@ -52,7 +52,7 @@ export const pixebayApi = (word, iziToast) => {
             backgroundColor: 'red',
             messageColor: 'white',
             theme: 'dark',
-            iconUrl: '../img/error.svg'
+            iconUrl: './img/error.svg'
         });
     });
 };
