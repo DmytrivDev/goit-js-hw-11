@@ -3,6 +3,7 @@ import "izitoast/dist/css/iziToast.min.css";
 
 import {pixebayApi} from "./js/pixebay-api";
 
+
 const form = document.querySelector('.form');
 
 form.addEventListener('submit', e => {
