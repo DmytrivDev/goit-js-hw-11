@@ -12,7 +12,7 @@ form.addEventListener('submit', e => {
     const target = e.target;
     const word = target.elements.field.value;
 
-    if(!word) {
+    if(!word) { 
         iziToast.show({
             message: 'Please, fill an input',
             position: 'topRight',
