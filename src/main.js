@@ -19,7 +19,7 @@ form.addEventListener('submit', e => {
             backgroundColor: 'red',
             messageColor: 'white',
             theme: 'dark',
-            iconUrl: '../img/error.svg'
+            iconUrl: '/goit-js-hw-11/assets/error.svg'
         });
     } else { 
         pixebayApi(word, iziToast);
