@@ -42,7 +42,7 @@ export const pixebayApi = (word, iziToast) => {
             });
         } else {
             renderFunc(data);
-        }
+        } 
       })
       .catch(error => {
         imgCont.innerHTML = '';
